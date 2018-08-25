@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zw.androidtouchhelpers.view.ViewDragHelperView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.zw.androidtouchhelpers.ViewDragHelperActivity">
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#F67325"
+        android:text="我可以随意拖拽，但是不能滑动出左右屏幕"
+        android:id="@+id/child1"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#51A12D"
+        android:id="@+id/child2"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="在屏幕左侧或者上侧滑动时，我也能被拖拽"
+        android:padding="10dp"
+        android:layout_below="@id/child1"/>
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#0674CB"
+        android:id="@+id/child3"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="松手后我会回到原来的位置"
+        android:padding="10dp"
+        android:layout_below="@id/child2"/>
+
+</com.zw.androidtouchhelpers.view.ViewDragHelperView>

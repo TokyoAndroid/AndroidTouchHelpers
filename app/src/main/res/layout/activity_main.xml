@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zw.androidtouchhelpers.MainActivity">
+
+    <Button
+        android:id="@+id/btn_gd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GestureDetector(手势探测器)"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/btn_vdh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_gd"
+        android:text="ViewDragHelper(子控件拖拽帮手)"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/btn_ith"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_vdh"
+        android:text="ItemTouchHelper(条目触摸帮手)"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zw.androidtouchhelpers.view.GestureDetectorView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.zw.androidtouchhelpers.GestureDetectorActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="我可以随着屏幕的滑动而滚动"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#15000000"/>
+
+</com.zw.androidtouchhelpers.view.GestureDetectorView>
